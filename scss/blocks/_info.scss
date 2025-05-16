@@ -21,4 +21,8 @@
 .info nav {
   display: flex;
   gap: 70px;
+
+  a {
+    font-weight: 400;
+  }
 }

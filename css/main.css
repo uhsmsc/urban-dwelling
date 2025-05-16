@@ -725,6 +725,9 @@ input {
   display: flex;
   gap: 70px;
 }
+.info nav a {
+  font-weight: 400;
+}
 
 .search-results {
   padding-block: 3em;
