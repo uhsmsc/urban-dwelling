@@ -31,6 +31,10 @@
 }
 
 body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+
   font-family: $font-main;
   font-weight: 400 !important;
   font-size: 16px;
