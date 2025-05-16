@@ -442,8 +442,8 @@ input {
   background-color: #FFFFFF;
   color: #000000;
   font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 11px;
+  font-weight: 400;
+  font-size: 12px;
   border-radius: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -575,6 +575,7 @@ input {
   color: #808080;
   max-width: 380px;
   overflow-wrap: break-word;
+  font-weight: 400;
 }
 .footer .footer__recaptcha a {
   color: #808080;
