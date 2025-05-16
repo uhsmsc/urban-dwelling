@@ -180,3 +180,21 @@
     }
   }
 }
+
+@media (max-width: 400px) {
+  .search-results {
+    .card {
+      .card-image-wrapper {
+        .card-overlay {
+          display: none;
+        }
+
+        &:hover {
+          .card-image {
+            transform: none !important;
+          }
+        }
+      }
+    }
+  }
+}

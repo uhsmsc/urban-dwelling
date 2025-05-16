@@ -120,7 +120,32 @@ input[type=file] {
   src: url("../../fonts/Lato-Bold.ttf") format("truetype");
   font-display: swap;
 }
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+footer {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
   font-family: "Lato", sans-serif;
   font-weight: 400 !important;
   font-size: 16px;
@@ -938,4 +963,14 @@ input {
   text-decoration: line-through;
   margin-left: 8px;
   font-weight: 600;
+}
+
+@media (max-width: 400px) {
+  .search-results .card .card-image-wrapper .card-overlay {
+    display: none;
+  }
+  .search-results .card .card-image-wrapper:hover .card-image {
+    -webkit-transform: none !important;
+            transform: none !important;
+  }
 }
