@@ -1,0 +1,24 @@
+.info {
+  color: $white-smoke;
+  background-color: $black-dark;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  @media (max-width: 770px) {
+      display: none;
+    }
+}
+
+.info .container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.info nav {
+  display: flex;
+  gap: 70px;
+}

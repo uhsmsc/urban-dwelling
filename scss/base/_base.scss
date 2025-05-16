@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'Korataki';
+  src: url('../../fonts/korataki.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../fonts/Lato-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../../fonts/Lato-Semibold.ttf') format('truetype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../fonts/Lato-Bold.ttf') format('truetype');
+  font-display: swap;
+}
+
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+
+  font-family: $font-main;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.4;
+  background-color: $white;
+  color: $black;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: $orange;
+  }
+}
+
+h3 {
+  font-family: $font-main;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  @media (max-width: 769px) {
+    max-width: 320px;
+  }
+
+  @media (min-width: 770px) and (max-width: 1599px) {
+    max-width: 680px;
+  }
+
+  @media (min-width: 1600px) and (max-width: 1919px) {
+    max-width: 1240px;
+  }
+
+  @media (min-width: 1920px) {
+    max-width: 1400px;
+  }
+}
+
+h1 {
+  font-family: $font-accent;
+  font-weight: 400;
+  font-size: 24px;
+  align-self: flex-start;
+
+  @media (min-width: 770px) {
+    font-size: 32px;
+  }
+
+  @media (min-width: 1600px) {
+    font-size: 40px;
+  }
+
+  @media (min-width: 1920px) {
+    font-size: 44px;
+  }
+}
+
+button {
+  font-family: $font-main;
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: background-color 0.3s ease;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+input {
+  font-family: $font-main;
+}

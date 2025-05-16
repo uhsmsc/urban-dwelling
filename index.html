@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Urban Dwelling</title>
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+  <div class="info">
+    <div class="container">
+      <nav>
+        <a href="#">Доставка и оплата</a>
+        <a href="#">Гарантия и возврат</a>
+        <a href="#">EN</a>
+      </nav>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__left">
+        <a href="#">
+          <img src="./img/header/Logo.svg" class="logo" alt="Urban Dwelling" />
+        </a>
+      </div>
+
+      <div class="header__center">
+        <nav class="nav">
+          <a href="#">КАТАЛОГ</a>
+          <a href="#">О КОМПАНИИ</a>
+          <a href="#">КОНТАКТЫ</a>
+        </nav>
+      </div>
+
+      <div class="header__right">
+        <div class="search-wrapper">
+          <input type="text" class="search-input" placeholder="Поиск..." />
+          <button class="search-icon" aria-label="Найти">
+            <img src="./img/header/search.svg" alt="Search" />
+          </button>
+        </div>
+
+        <button class="cart-btn" aria-label="Открыть корзину">
+          <div class="cart-icon-wrapper">
+            <img src="./img/header/basket.svg" alt="Корзина" class="cart-icon" />
+            <span class="cart-count">3</span>
+          </div>
+          <span class="cart-label">Корзина</span>
+        </button>
+
+        <button class="menu-btn" aria-label="Открыть меню">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="search-results container">
+    <div class="search-results__inner">
+      <h1>Результаты поиска</h1>
+      <div class="cards-grid"></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__logo">
+        <img src="/img/footer/Logo.svg" alt="Urban Dwelling" />
+      </div>
+
+      <div class="footer__address">
+        <h3>Адрес</h3>
+        <p>Текст, Текст, Текст</p>
+      </div>
+
+      <div class="footer__contacts">
+        <h3>Контакты</h3>
+        <p>Email: urban.dwelling@yandex.com</p>
+        <p>Телефон: 8 (999) 999-99-99</p>
+      </div>
+
+      <div class="footer__services">
+        <h3>Услуги</h3>
+        <a href="#">Каталог</a>
+        <a href="#">О компании</a>
+        <a href="#">Контакты</a>
+        <a href="#">Доставка и оплата</a>
+        <a href="#">Гарантия и возврат</a>
+      </div>
+
+      <div class="footer__legal">
+        <a href="#">Публичная оферта</a>
+        <a href="#">Политика персональных данных</a>
+      </div>
+
+      <div class="footer__payments">
+        <img src="/img/footer/mir.svg" alt="МИР" />
+        <img src="/img/footer/visa.svg" alt="VISA" />
+        <img src="/img/footer/master-card.svg" alt="MasterCard" />
+      </div>
+
+      <div class="footer__recaptcha">
+        Этот сайт защищен от спама службой reCAPTCHA Google.
+        <a href="#">Политика конфиденциальности</a> /
+        <a href="#">Условия предоставления услуг</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/products.js" defer></script>
+  <script src="./js/searchToggle.js" defer></script>
+</body>
+
+</html>
