@@ -94,7 +94,7 @@ input[type=file] {
 
 @font-face {
   font-family: "Korataki";
-  src: url("../../fonts/korataki.otf") format("opentype");
+  src: url("../fonts/korataki.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -103,27 +103,24 @@ input[type=file] {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  src: url("../../fonts/Lato-Regular.ttf") format("truetype");
+  src: url("../fonts/Lato-Regular.ttf") format("truetype");
   font-display: swap;
 }
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 600;
-  src: url("../../fonts/Lato-Semibold.ttf") format("truetype");
+  src: url("../fonts/Lato-Semibold.ttf") format("truetype");
   font-display: swap;
 }
 @font-face {
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-  src: url("../../fonts/Lato-Bold.ttf") format("truetype");
+  src: url("../fonts/Lato-Bold.ttf") format("truetype");
   font-display: swap;
 }
 body {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
   font-family: "Lato", sans-serif;
   font-weight: 400 !important;
   font-size: 16px;
